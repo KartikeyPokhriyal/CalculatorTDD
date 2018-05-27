@@ -12,4 +12,9 @@ public class Calculator {
         return listOfIntegers.stream().max(Comparator.naturalOrder()).orElse(1);
 
     }
+
+    public double calculateAverage(List<Integer> listOfIntegers) {
+        return listOfIntegers.stream().mapToDouble(v -> v).average().orElse(1.0);
+
+    }
 }

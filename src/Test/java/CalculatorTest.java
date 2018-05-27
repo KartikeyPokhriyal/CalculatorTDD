@@ -34,4 +34,10 @@ import static org.junit.Assert.assertEquals;
             assertEquals(6, calculator.calculateMaximum(listOfIntegers));
         }
 
+        @Test
+
+        public void returnAverageOfAListOfIntegersWhenListIsPassed() {
+
+            assertEquals("3.75",String.valueOf(calculator.calculateAverage(listOfIntegers)));
+        }
     }
