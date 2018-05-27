@@ -26,4 +26,12 @@ import static org.junit.Assert.assertEquals;
 
             assertEquals(1, calculator.calculateMinimum(listOfIntegers));
         }
+
+        @Test
+
+        public void returnMaximumOfAListOfIntegersWhenListIsPassed() {
+
+            assertEquals(6, calculator.calculateMaximum(listOfIntegers));
+        }
+
     }
